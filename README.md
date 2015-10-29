@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/karupanerura/Cache-Keys-DSL.svg?branch=master)](https://travis-ci.org/karupanerura/Cache-Keys-DSL)
 # NAME
 
 Cache::Keys::DSL - Declare cache key generator by DSL
