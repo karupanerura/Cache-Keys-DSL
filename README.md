@@ -49,21 +49,21 @@ Cache::Keys::DSL - Declare cache key generator by DSL
 
 # DESCRIPTION
 
-Cache::Keys::DSL provides DSL for declareing cache key.
+Cache::Keys::DSL provides DSL for declaring cache key.
 
 # FUNCTIONS
 
-- key $name
+- `key $name`
 
     For declaring static key.
     It generates exportable constant subroutine named `key_for_$name`.
 
-- keygen $name
+- `keygen $name`
 
     For declaring dynamic key.
     It generates exportable subroutine named `gen_key_for_$name`.
 
-- with\_version $name, $version
+- `with_version $name, $version`
 
     For declaring cache version.
 
