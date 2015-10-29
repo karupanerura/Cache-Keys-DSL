@@ -23,12 +23,16 @@ sub import {
         *{"${caller}::${name}"} = $code;
     }
 
+    {
+        local $Exporter::ExportLevel = 1;
+        Exporter->import('import');
+    }
+
     no strict qw/refs/;
     no warnings qw/once/;
     *{"${caller}::with_version"} = \&_with_version;
     @{"${caller}::EXPORT_OK"}    = ();
     %{"${caller}::EXPORT_TAGS"}  = (all => \@{"${caller}::EXPORT_OK"});
-    @{"${caller}::import"}       = Exporter->can('import');
 }
 
 sub _with_version($$) {## no critic
