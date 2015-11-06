@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/karupanerura/Cache-Keys-DSL.svg?branch=master)](https://travis-ci.org/karupanerura/Cache-Keys-DSL)
+[![Build Status](https://travis-ci.org/karupanerura/Cache-Keys-DSL.svg?branch=master)](https://travis-ci.org/karupanerura/Cache-Keys-DSL) [![Coverage Status](http://codecov.io/github/karupanerura/Cache-Keys-DSL/coverage.svg?branch=master)](https://codecov.io/github/karupanerura/Cache-Keys-DSL?branch=master)
 # NAME
 
 Cache::Keys::DSL - Declare cache key generator by DSL
@@ -77,4 +77,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-karupanerura <karupa@cpan.org>
+karupanerura &lt;karupa@cpan.org>
